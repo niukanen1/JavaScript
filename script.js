@@ -9,3 +9,16 @@ const arrFunc = () => {
     console.log(Math.PI)    
 }
 arrFunc() 
+
+
+// main func 
+function Movement(PlayerName, action) { 
+    console.log(PlayerName); 
+    action(); 
+}
+
+function sayHi() {
+    console.log("Hey!!!") 
+}
+
+Movement("Mike", sayHi)
